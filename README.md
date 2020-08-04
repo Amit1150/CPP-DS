@@ -5,4 +5,4 @@
   * https://leetcode.com/problems/majority-element-ii/discuss/63520/Boyer-Moore-Majority-Vote-algorithm-and-my-elaboration
 
 #### Merge Sort Algorithm
-  *https://www.programiz.com/dsa/merge-sort
+  * https://www.programiz.com/dsa/merge-sort
