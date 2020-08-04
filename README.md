@@ -1,4 +1,4 @@
-### Moore’s Voting Algorithm
+#### Moore’s Voting Algorithm
 
   * https://www.geeksforgeeks.org/majority-element
   * https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html
