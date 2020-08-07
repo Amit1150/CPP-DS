@@ -8,6 +8,8 @@
   * Merge Sort 
       * https://www.programiz.com/dsa/merge-sort
   * Selection Sort
+      * https://www.geeksforgeeks.org/selection-sort/
+      * https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/
   * Bubble Sort
   * Insertion Sort
   * Quick Sort
