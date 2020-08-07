@@ -11,5 +11,7 @@
       * https://www.geeksforgeeks.org/selection-sort/
       * https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/
   * Bubble Sort
+      * https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/
+      * https://www.geeksforgeeks.org/bubble-sort/
   * Insertion Sort
   * Quick Sort
