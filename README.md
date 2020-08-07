@@ -15,3 +15,11 @@
       * https://www.geeksforgeeks.org/bubble-sort/
   * Insertion Sort
   * Quick Sort
+ 
+ #### Search Algorithm 
+  * Linear Search
+      * https://www.hackerearth.com/practice/algorithms/searching/linear-search/tutorial/
+      * https://www.geeksforgeeks.org/linear-search/
+      * https://medium.com/karuna-sehgal/an-simplified-explanation-of-linear-search-5056942ba965
+     
+  
