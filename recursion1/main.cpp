@@ -47,6 +47,26 @@ int sumOfDigit(int n) {
     return n%10 + sumOfDigit(n/10);
 }
 
+int multiply(int a, int b){
+    if(b == 0)
+        return 0;
+        
+    return a + multiply(a, b-1);
+}
+
+int countZero(int n){
+    if(n < 10)
+        return 0;
+    return (n%10 == 0? 1 : 0) + countZero(n/10);
+}
+
+double gSum(int n){
+    if(n == 0)
+        return 1;
+    
+    return 1.0 / power(2, n) + gSum(n-1);
+}
+
 int main() {
     cout << "------------------factorial--------------------------"<< endl;
     cout << "factorial of 5: "<< factorial2(5) << endl;
@@ -64,5 +84,14 @@ int main() {
     cout << "sum of digits in 1236: "<< sumOfDigit(1236) << endl;
     cout << "sum of digits in 1: "<< sumOfDigit(1) << endl;
     cout << "sum of digits in 7638: "<< sumOfDigit(7638) << endl;
+    cout << "------------------multiply--------------------------"<< endl;
+    cout << "multiply 3*4: "<< multiply(3,4) << endl;
+    cout << "multiply 10*5: "<< multiply(10,5) << endl;
+    cout << "------------------multiply--------------------------"<< endl;
+    cout << "total zero in 10320: "<< countZero(10320) << endl;
+    cout << "total zero in 10: "<< countZero(10) << endl;
+    cout << "total zero in 112: "<< countZero(112) << endl;
+    cout << "------------------gsum--------------------------"<< endl;
+    cout << "gsum of 3: "<< gSum(3) << endl;
     return 0;
 }
